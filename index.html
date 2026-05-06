@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="yandex-verification" content="flux-swap-tron-verify"/>
+  <meta name="google-site-verification" content="FluxSwap-TRON-DEX-verification"/>
+
+  <!-- ═══ PRIMARY SEO ═══ -->
+  <title>FluxSwap – #1 FLUX Token DEX on TRON | Swap FLUX, Stake & Earn Rewards</title>
+  <meta name="description" content="FluxSwap is the premier decentralized exchange for FLUX token on TRON. Swap FLUX instantly at the best rates, stake for up to 280% APY, and earn continuous rewards. Non-custodial, MEV-protected, zero KYC. FLUX TRC-20 DeFi hub."/>
+  <meta name="keywords" content="FluxSwap, FLUX swap, FLUX token TRON, FLUX TRC20, swap FLUX, FLUX DEX, FLUX staking, FLUX rewards, FLUX DeFi, FluxSwap TRON, buy FLUX TRON, FLUX exchange, FLUX yield, FLUX earn, TRON DEX FLUX"/>
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <link rel="canonical" href="https://flux-swap.vercel.app/"/>
+  <meta name="author" content="FluxSwap – TRON DeFi Protocol"/>
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="FluxSwap – Premier FLUX DEX on TRON Network"/>
+  <meta property="og:description" content="Swap FLUX on TRON instantly. Stake for up to 280% APY. Non-custodial, MEV-protected, zero KYC. The ultimate FLUX DeFi ecosystem."/>
+  <meta property="og:url" content="https://flux-swap.vercel.app/"/>
+  <meta property="og:site_name" content="FluxSwap"/>
+  <meta property="og:image" content="https://flux-swap.vercel.app/og.png"/>
+  <meta property="og:locale" content="en_US"/>
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="FluxSwap – TRON's #1 FLUX Token DEX"/>
+  <meta name="twitter:description" content="Swap FLUX, stake for massive yields, earn rewards. TRON's most powerful FLUX DeFi protocol."/>
+  <meta name="twitter:image" content="https://flux-swap.vercel.app/og.png"/>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"FluxSwap","applicationCategory":"FinanceApplication","operatingSystem":"Web","url":"https://flux-swap.vercel.app/","description":"FluxSwap is the premier DEX and staking platform for FLUX token on TRON blockchain, offering instant swaps, staking rewards up to 280% APY, and cross-chain liquidity.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is FluxSwap?","acceptedAnswer":{"@type":"Answer","text":"FluxSwap is the premier decentralized exchange (DEX) built specifically for the FLUX token ecosystem on the TRON blockchain. It aggregates 400+ TRON DEX pools for best-rate swaps, offers FLUX staking up to 280% APY, and cross-chain swaps across 30+ networks."}},{"@type":"Question","name":"What is FLUX token on TRON?","acceptedAnswer":{"@type":"Answer","text":"FLUX on TRON (TRC-20 address: TWr6yzukRwZ53HDe3bzcC8RCTbiKa4Zzb6) is a parallel asset of the native Flux blockchain, enabling FLUX holders to access TRON DeFi while maintaining their FLUX exposure. It powers the FluxSwap DeFi ecosystem."}},{"@type":"Question","name":"How do I swap USDT to FLUX on TRON?","acceptedAnswer":{"@type":"Answer","text":"Connect TronLink, select USDT TRC-20 as input and FLUX as output, enter your amount, review the quoted rate, and click Swap Now. Your FLUX arrives in under 3 seconds."}}]}
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300FFCC'/%3E%3Cstop offset='1' stop-color='%230080FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%23030810'/%3E%3Cpath d='M14 32 Q24 14 32 20 Q40 26 32 32 Q24 38 32 44 Q40 50 50 32' stroke='url(%23g)' stroke-width='3.5' stroke-linecap='round' fill='none'/%3E%3Ccircle cx='32' cy='32' r='4' fill='url(%23g)'/%3E%3C/svg%3E"/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Manrope:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{
+      --bg:       #020509;
+      --bg2:      #050c14;
+      --bg3:      #071018;
+      --bg4:      #0a1520;
+      --surface:  rgba(0,255,204,.03);
+      --b1:       rgba(0,255,204,.14);
+      --b2:       rgba(255,255,255,.06);
+      --b3:       rgba(0,128,255,.12);
+      --cyan:     #00FFCC;
+      --blue:     #0080FF;
+      --indigo:   #3D5AFE;
+      --purple:   #7C4DFF;
+      --ice:      #E0F7FF;
+      --text:     #D8EEF8;
+      --muted:    #4A6080;
+      --muted2:   #7090A8;
+      --fh:       'Rajdhani', sans-serif;
+      --fb:       'Manrope', sans-serif;
+      --fm:       'JetBrains Mono', monospace;
+      --r:        14px;
+      --glow-c:   0 0 60px rgba(0,255,204,.15),0 0 120px rgba(0,128,255,.1);
+    }
+
+    html{scroll-behavior:smooth}
+    body{
+      background:var(--bg);
+      color:var(--text);
+      font-family:var(--fb);
+      overflow-x:hidden;
+      line-height:1.65;
+      cursor:none;
+    }
+    a{color:inherit;text-decoration:none}
+    ::selection{background:rgba(0,255,204,.25);color:var(--cyan)}
+
+    /* ── CUSTOM CURSOR ── */
+    #cursor{
+      position:fixed;width:12px;height:12px;border-radius:50%;
+      background:var(--cyan);pointer-events:none;z-index:9999;
+      transform:translate(-50%,-50%);
+      box-shadow:0 0 16px var(--cyan),0 0 32px rgba(0,255,204,.4);
+      transition:transform .1s,opacity .2s;
+      mix-blend-mode:screen;
+    }
+    #cursor-ring{
+      position:fixed;width:36px;height:36px;border-radius:50%;
+      border:1px solid rgba(0,255,204,.4);pointer-events:none;z-index:9998;
+      transform:translate(-50%,-50%);
+      transition:all .15s ease;
+    }
+    body:hover #cursor{opacity:1}
+
+    /* ── BACKGROUND ── */
+    #bg-canvas{position:fixed;inset:0;z-index:0;pointer-events:none}
+    .bg-grid{
+      position:fixed;inset:0;z-index:0;pointer-events:none;
+      background-image:
+        linear-gradient(rgba(0,255,204,.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,255,204,.018) 1px, transparent 1px);
+      background-size:64px 64px;
+    }
+    .bg-scan{
+      position:fixed;inset:0;z-index:0;pointer-events:none;
+      background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        rgba(0,255,204,.008) 50%
+      );
+      background-size:100% 4px;
+      animation:scan-move 8s linear infinite;
+    }
+    @keyframes scan-move{
+      0%{background-position:0 0}
+      100%{background-position:0 100px}
+    }
+
+    /* ── LAYOUT ── */
+    .wrap{max-width:1220px;margin:0 auto;padding:0 28px;position:relative;z-index:2}
+    section{position:relative;z-index:2}
+
+    /* ══════════════════════════════════════
+       HEADER
+    ══════════════════════════════════════ */
+    header{
+      position:sticky;top:0;z-index:300;
+      backdrop-filter:blur(32px) saturate(180%);
+      background:rgba(2,5,9,.92);
+      border-bottom:1px solid var(--b1);
+    }
+    header::after{
+      content:'';position:absolute;bottom:-1px;left:0;right:0;height:1px;
+      background:linear-gradient(90deg,transparent,var(--cyan),var(--blue),transparent);
+      opacity:.4;
+    }
+    .nav-row{display:flex;align-items:center;justify-content:space-between;height:70px}
+
+    .logo{display:flex;align-items:center;gap:12px;font-family:var(--fh);font-weight:700;font-size:1.35rem;letter-spacing:.05em}
+    .logo-mark{
+      width:38px;height:38px;position:relative;
+      display:flex;align-items:center;justify-content:center;
+    }
+    .logo-mark svg{filter:drop-shadow(0 0 8px var(--cyan))}
+    .logo-word .f{color:var(--cyan);text-transform:uppercase;letter-spacing:.08em}
+    .logo-word .lux{color:var(--blue);text-transform:uppercase;letter-spacing:.08em}
+    .logo-word .sub{
+      font-family:var(--fm);font-size:.52rem;letter-spacing:.18em;
+      text-transform:uppercase;color:var(--muted);display:block;line-height:1;margin-top:1px
+    }
+
+    nav{display:flex;align-items:center;gap:2px}
+    nav a{
+      font-family:var(--fm);font-size:.65rem;letter-spacing:.1em;
+      color:var(--muted);padding:8px 14px;border-radius:8px;
+      transition:color .2s,background .2s;text-transform:uppercase;
+      position:relative;
+    }
+    nav a::after{
+      content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);
+      width:0;height:1px;background:var(--cyan);transition:width .3s;
+    }
+    nav a:hover{color:var(--cyan);background:rgba(0,255,204,.05)}
+    nav a:hover::after{width:60%}
+
+    .btn-connect{
+      font-family:var(--fh);font-weight:700;font-size:.85rem;
+      letter-spacing:.1em;text-transform:uppercase;
+      padding:10px 24px;border-radius:10px;border:1px solid var(--cyan);
+      background:rgba(0,255,204,.06);color:var(--cyan);cursor:none;
+      box-shadow:0 0 20px rgba(0,255,204,.15),inset 0 0 20px rgba(0,255,204,.03);
+      transition:all .2s;position:relative;overflow:hidden;
+    }
+    .btn-connect::before{
+      content:'';position:absolute;inset:0;
+      background:linear-gradient(135deg,transparent,rgba(0,255,204,.1),transparent);
+      transform:translateX(-100%);transition:transform .5s;
+    }
+    .btn-connect:hover::before{transform:translateX(100%)}
+    .btn-connect:hover{
+      background:rgba(0,255,204,.12);
+      box-shadow:0 0 40px rgba(0,255,204,.3),inset 0 0 30px rgba(0,255,204,.05);
+    }
+
+    /* ══════════════════════════════════════
+       HERO
+    ══════════════════════════════════════ */
+    .hero{
+      min-height:100vh;display:flex;align-items:center;
+      padding:130px 0 90px;position:relative;overflow:hidden;
+    }
+
+    /* Central flux stream */
+    .flux-stream{
+      position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+      width:900px;height:900px;pointer-events:none;z-index:0;
+      opacity:.12;animation:stream-rotate 30s linear infinite;
+    }
+    @keyframes stream-rotate{from{transform:translate(-50%,-50%) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(360deg)}}
+
+    .hero-inner{
+      display:grid;grid-template-columns:1fr 1.05fr;
+      gap:70px;align-items:center;position:relative;z-index:2;
+    }
+
+    .hero-tag{
+      display:inline-flex;align-items:center;gap:10px;
+      font-family:var(--fm);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;
+      color:var(--cyan);background:rgba(0,255,204,.07);
+      border:1px solid rgba(0,255,204,.2);
+      padding:7px 18px;border-radius:100px;margin-bottom:28px;
+      position:relative;overflow:hidden;
+    }
+    .hero-tag::before{
+      content:'';position:absolute;left:-100%;top:0;width:100%;height:100%;
+      background:linear-gradient(90deg,transparent,rgba(0,255,204,.1),transparent);
+      animation:tag-shine 3s ease-in-out infinite;
+    }
+    @keyframes tag-shine{0%,100%{left:-100%}50%{left:100%}}
+    .tag-dot{width:6px;height:6px;border-radius:50%;background:var(--cyan);animation:pulse-dot 2s infinite;box-shadow:0 0 8px var(--cyan)}
+
+    .hero h1{
+      font-family:var(--fh);font-weight:700;
+      font-size:clamp(3rem,6.5vw,5.5rem);
+      line-height:.94;letter-spacing:.04em;margin-bottom:24px;
+      text-transform:uppercase;
+    }
+    .h1-line{display:block}
+    .h-c{
+      color:var(--cyan);
+      text-shadow:0 0 30px rgba(0,255,204,.4),0 0 60px rgba(0,255,204,.2);
+    }
+    .h-b{color:var(--blue);text-shadow:0 0 30px rgba(0,128,255,.4)}
+    .h-g{
+      background:linear-gradient(90deg,var(--cyan),var(--blue),var(--purple));
+      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+    }
+    .h-dim{color:rgba(255,255,255,.25)}
+
+    .hero p{font-size:1rem;color:var(--muted2);max-width:480px;line-height:1.85;margin-bottom:38px}
+
+    .hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:54px}
+    .btn-main{
+      font-family:var(--fh);font-weight:700;font-size:.9rem;
+      letter-spacing:.1em;text-transform:uppercase;
+      padding:14px 36px;border-radius:var(--r);border:none;cursor:none;
+      background:linear-gradient(135deg,var(--cyan),var(--blue));
+      color:#020509;box-shadow:var(--glow-c);
+      transition:transform .15s,box-shadow .2s;position:relative;overflow:hidden;
+    }
+    .btn-main::after{
+      content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
+      background:linear-gradient(90deg,transparent,rgba(255,255,255,.25),transparent);
+      transition:left .6s;
+    }
+    .btn-main:hover::after{left:100%}
+    .btn-main:hover{transform:translateY(-3px);box-shadow:0 0 80px rgba(0,255,204,.5),0 0 40px rgba(0,128,255,.3)}
+    .btn-outline{
+      font-family:var(--fh);font-weight:600;font-size:.9rem;
+      letter-spacing:.1em;text-transform:uppercase;
+      padding:13px 30px;border-radius:var(--r);cursor:none;
+      background:transparent;color:var(--text);
+      border:1px solid var(--b1);
+      transition:all .2s;
+    }
+    .btn-outline:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(0,255,204,.04);box-shadow:0 0 20px rgba(0,255,204,.1)}
+
+    .hero-kpis{display:flex;gap:16px;flex-wrap:wrap}
+    .kpi{
+      padding:16px 20px;
+      background:linear-gradient(135deg,rgba(0,255,204,.05),rgba(0,128,255,.03));
+      border:1px solid var(--b1);border-radius:14px;min-width:112px;
+      position:relative;overflow:hidden;transition:all .25s;
+    }
+    .kpi::before{
+      content:'';position:absolute;top:0;left:0;right:0;height:1px;
+      background:linear-gradient(90deg,transparent,var(--cyan),transparent);
+    }
+    .kpi:hover{transform:translateY(-4px);border-color:rgba(0,255,204,.35);box-shadow:0 8px 30px rgba(0,255,204,.1)}
+    .kpi-n{font-family:var(--fh);font-weight:700;font-size:1.55rem;letter-spacing:.02em;color:var(--cyan);text-shadow:0 0 16px rgba(0,255,204,.4)}
+    .kpi-l{font-family:var(--fm);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+
+    /* ── SWAP CARD ── */
+    .swap-card{
+      background:linear-gradient(145deg,rgba(7,16,24,.98),rgba(5,12,20,.99));
+      border:1px solid var(--b1);border-radius:24px;padding:28px;
+      box-shadow:var(--glow-c);position:relative;overflow:hidden;
+      animation:card-float 8s ease-in-out infinite;
+    }
+    @keyframes card-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+    .swap-card::before{
+      content:'';position:absolute;top:0;left:0;right:0;height:1px;
+      background:linear-gradient(90deg,transparent,var(--cyan),var(--blue),transparent);
+    }
+    .swap-card::after{
+      content:'';position:absolute;top:-60%;right:-40%;width:350px;height:350px;border-radius:50%;
+      background:radial-gradient(circle,rgba(0,255,204,.05) 0%,transparent 65%);
+      pointer-events:none;
+    }
+
+    .sc-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+    .sc-title{font-family:var(--fh);font-weight:700;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase}
+    .sc-title span{color:var(--cyan);text-shadow:0 0 12px rgba(0,255,204,.4)}
+
+    .sc-tabs{display:flex;gap:5px}
+    .sc-tab{
+      font-family:var(--fm);font-size:.6rem;padding:5px 11px;
+      border-radius:7px;border:1px solid var(--b2);color:var(--muted);
+      cursor:none;transition:all .2s;text-transform:uppercase;letter-spacing:.06em;
+    }
+    .sc-tab.active,.sc-tab:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(0,255,204,.06)}
+
+    .token-row{
+      background:rgba(0,255,204,.025);border:1px solid rgba(0,255,204,.08);
+      border-radius:14px;padding:16px 18px;margin-bottom:7px;
+      transition:border-color .2s;
+    }
+    .token-row:focus-within,.token-row:hover{border-color:rgba(0,255,204,.2)}
+    .tr-label{font-family:var(--fm);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+    .tr-inner{display:flex;align-items:center;justify-content:space-between;gap:12px}
+
+    .tok-sel{
+      display:flex;align-items:center;gap:9px;
+      background:rgba(0,255,204,.06);border:1px solid rgba(0,255,204,.15);
+      border-radius:10px;padding:9px 12px;cursor:none;min-width:148px;
+      transition:all .2s;
+    }
+    .tok-sel:hover{border-color:var(--cyan);background:rgba(0,255,204,.1)}
+    .tok-ico{
+      width:26px;height:26px;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      font-size:.85rem;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.5);
+    }
+    .tok-info .sym{font-family:var(--fh);font-weight:700;font-size:.9rem;letter-spacing:.04em}
+    .tok-info .net{font-family:var(--fm);font-size:.58rem;color:var(--muted)}
+    .tok-caret{margin-left:auto;color:var(--muted);font-size:.6rem}
+
+    .tok-amount{
+      background:transparent;border:none;outline:none;
+      font-family:var(--fh);font-weight:700;font-size:1.65rem;
+      color:var(--ice);text-align:right;width:100%;letter-spacing:.02em;cursor:text;
+    }
+    .tr-sub{display:flex;justify-content:space-between;margin-top:8px;font-family:var(--fm);font-size:.66rem;color:var(--muted)}
+    .tr-sub .bal{cursor:none;transition:color .2s}
+    .tr-sub .bal:hover{color:var(--cyan)}
+
+    .sc-arrow{display:flex;justify-content:center;padding:3px 0}
+    .sc-arrow-btn{
+      width:38px;height:38px;border-radius:10px;
+      background:linear-gradient(135deg,var(--cyan),var(--blue));
+      border:3px solid var(--bg2);cursor:none;
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:0 0 20px rgba(0,255,204,.35);transition:transform .5s,box-shadow .2s;
+    }
+    .sc-arrow-btn:hover{transform:rotate(180deg);box-shadow:0 0 40px rgba(0,255,204,.6)}
+    .sc-arrow-btn svg{color:#020509}
+
+    .sc-info{padding:10px 0 2px}
+    .sc-info-row{
+      display:flex;justify-content:space-between;
+      font-family:var(--fm);font-size:.67rem;color:var(--muted);padding:5px 0;
+      border-bottom:1px solid rgba(255,255,255,.03);
+    }
+    .sc-info-row:last-child{border:none}
+    .sc-info-row .v{color:var(--cyan)}
+    .sc-info-row .good{color:#4ade80}
+
+    .slip-row{display:flex;gap:6px;margin:12px 0}
+    .slip-btn{
+      font-family:var(--fm);font-size:.64rem;padding:6px 12px;
+      border-radius:8px;border:1px solid var(--b2);background:transparent;
+      color:var(--muted);cursor:none;transition:all .2s;
+    }
+    .slip-btn.active,.slip-btn:hover{background:rgba(0,255,204,.08);border-color:var(--cyan);color:var(--cyan)}
+
+    .btn-swap-now{
+      width:100%;padding:16px;
+      font-family:var(--fh);font-weight:700;font-size:.95rem;
+      letter-spacing:.1em;text-transform:uppercase;
+      background:linear-gradient(135deg,var(--cyan),var(--blue));
+      color:#020509;border:none;border-radius:12px;cursor:none;
+      box-shadow:0 4px 30px rgba(0,255,204,.25);
+      transition:transform .15s,box-shadow .2s;margin-top:8px;position:relative;overflow:hidden;
+    }
+    .btn-swap-now::after{
+      content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
+      background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+      transition:left .55s;
+    }
+    .btn-swap-now:hover::after{left:100%}
+    .btn-swap-now:hover{transform:translateY(-2px);box-shadow:0 0 60px rgba(0,255,204,.5)}
+
+    .sc-footer{display:flex;justify-content:center;gap:18px;margin-top:12px;font-family:var(--fm);font-size:.61rem;color:var(--muted)}
+    .sc-footer span{display:flex;align-items:center;gap:5px}
+    .sc-footer span::before{content:'◈';color:var(--cyan);font-size:.55rem}
+
+    /* ══════════════════════════════════════
+       TICKER
+    ══════════════════════════════════════ */
+    .ticker-wrap{
+      border-top:1px solid var(--b1);border-bottom:1px solid var(--b1);
+      background:rgba(3,8,12,.97);overflow:hidden;padding:10px 0;
+      position:relative;
+    }
+    .ticker-wrap::before,.ticker-wrap::after{
+      content:'';position:absolute;top:0;bottom:0;width:80px;z-index:10;pointer-events:none;
+    }
+    .ticker-wrap::before{left:0;background:linear-gradient(90deg,rgba(3,8,12,1),transparent)}
+    .ticker-wrap::after{right:0;background:linear-gradient(-90deg,rgba(3,8,12,1),transparent)}
+    .ticker-track{display:flex;gap:56px;width:max-content;animation:ticker-run 36s linear infinite}
+    .t-i{display:flex;align-items:center;gap:8px;font-family:var(--fm);font-size:.7rem;color:var(--muted);white-space:nowrap}
+    .t-dot{width:5px;height:5px;border-radius:50%;background:var(--cyan);box-shadow:0 0 6px var(--cyan)}
+    .t-v{color:var(--cyan)}
+    .up{color:#4ade80}.dn{color:#f87171}
+
+    /* ══════════════════════════════════════
+       SECTIONS
+    ══════════════════════════════════════ */
+    .sec{padding:100px 0}
+    .sec-lbl{
+      font-family:var(--fm);font-size:.64rem;letter-spacing:.18em;text-transform:uppercase;
+      color:var(--cyan);margin-bottom:14px;
+    }
+    .sec-h{
+      font-family:var(--fh);font-weight:700;
+      font-size:clamp(2rem,4vw,3.2rem);line-height:1.02;
+      letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px;
+    }
+    .sec-sub{font-size:.97rem;color:var(--muted2);max-width:560px;line-height:1.82}
+    .sec-center{text-align:center}
+    .sec-center .sec-sub{margin:0 auto}
+
+    /* ══════════════════════════════════════
+       STAKING / REWARDS
+    ══════════════════════════════════════ */
+    .staking-wrap{
+      display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:60px;
+    }
+
+    .s-card{
+      background:linear-gradient(145deg,rgba(7,16,24,.99),rgba(5,12,20,.99));
+      border:1px solid var(--b1);border-radius:22px;padding:30px;
+      position:relative;overflow:hidden;
+      transition:border-color .3s,transform .3s,box-shadow .3s;
+    }
+    .s-card::before{
+      content:'';position:absolute;top:0;left:0;right:0;height:1px;
+      background:linear-gradient(90deg,transparent,var(--cyan),transparent);
+      opacity:.6;
+    }
+    .s-card:hover{border-color:rgba(0,255,204,.35);transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,255,204,.1)}
+    .s-card.prime{
+      border-color:rgba(0,255,204,.25);
+      box-shadow:0 0 40px rgba(0,255,204,.06);
+    }
+    .s-card.prime::after{
+      content:'⚡ PRIME';position:absolute;top:16px;right:16px;
+      font-family:var(--fm);font-size:.58rem;letter-spacing:.1em;
+      color:var(--cyan);background:rgba(0,255,204,.1);
+      border:1px solid rgba(0,255,204,.3);border-radius:100px;
+      padding:4px 12px;
+    }
+
+    .s-head{display:flex;align-items:center;gap:14px;margin-bottom:24px}
+    .s-ico{
+      width:50px;height:50px;border-radius:14px;
+      display:flex;align-items:center;justify-content:center;font-size:1.5rem;
+      background:linear-gradient(135deg,rgba(0,255,204,.1),rgba(0,128,255,.08));
+      border:1px solid rgba(0,255,204,.2);flex-shrink:0;
+    }
+    .s-name{font-family:var(--fh);font-weight:700;font-size:1.1rem;letter-spacing:.05em;text-transform:uppercase}
+    .s-tag{font-family:var(--fm);font-size:.6rem;color:var(--muted);margin-top:2px}
+
+    .s-apy{
+      text-align:center;padding:22px 0;margin:16px 0;
+      border-top:1px solid rgba(0,255,204,.08);border-bottom:1px solid rgba(0,255,204,.08);
+    }
+    .apy-l{font-family:var(--fm);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+    .apy-v{
+      font-family:var(--fh);font-weight:700;font-size:3.2rem;letter-spacing:.03em;
+      color:var(--cyan);text-shadow:0 0 40px rgba(0,255,204,.5),0 0 80px rgba(0,255,204,.2);
+      animation:apy-pulse 3s ease-in-out infinite;
+    }
+    @keyframes apy-pulse{0%,100%{text-shadow:0 0 40px rgba(0,255,204,.5),0 0 80px rgba(0,255,204,.2)}50%{text-shadow:0 0 60px rgba(0,255,204,.8),0 0 120px rgba(0,255,204,.35)}}
+    .apy-note{font-family:var(--fm);font-size:.61rem;color:var(--muted);margin-top:5px}
+
+    .s-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}
+    .ss{
+      background:rgba(0,255,204,.03);border:1px solid rgba(0,255,204,.08);
+      border-radius:10px;padding:12px;text-align:center;
+    }
+    .ss-v{font-family:var(--fh);font-weight:700;font-size:1.1rem;color:var(--cyan);letter-spacing:.03em}
+    .ss-l{font-family:var(--fm);font-size:.58rem;color:var(--muted);margin-top:3px;text-transform:uppercase;letter-spacing:.07em}
+
+    .s-input-wrap{
+      background:rgba(0,255,204,.03);border:1px solid rgba(0,255,204,.1);
+      border-radius:12px;padding:14px 16px;margin-bottom:12px;
+      transition:border-color .2s;
+    }
+    .s-input-wrap:focus-within{border-color:rgba(0,255,204,.3)}
+    .s-input-lbl{font-family:var(--fm);font-size:.59rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:flex;justify-content:space-between}
+    .s-input-lbl span{color:var(--cyan);cursor:none}
+    .s-input{
+      width:100%;background:transparent;border:none;outline:none;
+      font-family:var(--fh);font-weight:700;font-size:1.45rem;
+      color:var(--ice);letter-spacing:.02em;cursor:text;
+    }
+    .dur-row{display:flex;gap:6px;margin-bottom:18px;flex-wrap:wrap}
+    .dur-btn{
+      flex:1;min-width:56px;font-family:var(--fm);font-size:.6rem;padding:8px 6px;
+      border-radius:8px;border:1px solid var(--b2);background:transparent;
+      color:var(--muted);cursor:none;transition:all .2s;text-align:center;letter-spacing:.04em;
+    }
+    .dur-btn.active,.dur-btn:hover{background:rgba(0,255,204,.08);border-color:var(--cyan);color:var(--cyan)}
+
+    .btn-stake{
+      width:100%;padding:14px;
+      font-family:var(--fh);font-weight:700;font-size:.88rem;
+      letter-spacing:.1em;text-transform:uppercase;
+      background:linear-gradient(135deg,var(--cyan),var(--blue));
+      color:#020509;border:none;border-radius:12px;cursor:none;
+      box-shadow:0 4px 24px rgba(0,255,204,.25);
+      transition:transform .15s,box-shadow .2s;position:relative;overflow:hidden;
+    }
+    .btn-stake::after{
+      content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
+      background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+      transition:left .5s;
+    }
+    .btn-stake:hover::after{left:100%}
+    .btn-stake:hover{transform:translateY(-2px);box-shadow:0 0 50px rgba(0,255,204,.45)}
+
+    /* ── REWARDS DASHBOARD ── */
+    .rewards-dash{
+      grid-column:1/-1;
+      background:linear-gradient(145deg,rgba(7,16,24,.99),rgba(5,12,20,.99));
+      border:1px solid rgba(0,255,204,.18);border-radius:22px;padding:30px;
+      position:relative;overflow:hidden;
+    }
+    .rewards-dash::before{
+      content:'';position:absolute;top:0;left:0;right:0;height:1px;
+      background:linear-gradient(90deg,transparent,var(--cyan),var(--blue),transparent);
+    }
+    .rd-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}
+    .rd-title{font-family:var(--fh);font-weight:700;font-size:1.22rem;letter-spacing:.06em;text-transform:uppercase}
+    .rd-title span{color:var(--cyan);text-shadow:0 0 12px rgba(0,255,204,.4)}
+    .btn-claim{
+      font-family:var(--fh);font-weight:700;font-size:.78rem;
+      letter-spacing:.08em;text-transform:uppercase;
+      padding:10px 22px;border-radius:10px;
+      border:1px solid var(--cyan);background:rgba(0,255,204,.08);
+      color:var(--cyan);cursor:none;transition:all .2s;
+    }
+    .btn-claim:hover{background:rgba(0,255,204,.14);box-shadow:0 0 24px rgba(0,255,204,.2)}
+
+    .rd-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .r-stat{
+      background:rgba(0,255,204,.03);border:1px solid rgba(0,255,204,.08);
+      border-radius:14px;padding:18px;text-align:center;
+      transition:all .25s;
+    }
+    .r-stat:hover{border-color:rgba(0,255,204,.25);transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,255,204,.08)}
+    .r-ico{font-size:1.7rem;margin-bottom:10px}
+    .r-v{font-family:var(--fh);font-weight:700;font-size:1.35rem;color:var(--cyan);letter-spacing:.02em;text-shadow:0 0 12px rgba(0,255,204,.3)}
+    .r-l{font-family:var(--fm);font-size:.59rem;color:var(--muted);margin-top:4px;text-transform:uppercase;letter-spacing:.08em}
+
+    .prog-row{margin-top:22px}
+    .prog-hd{display:flex;justify-content:space-between;font-family:var(--fm);font-size:.65rem;color:var(--muted);margin-bottom:8px}
+    .prog-bar{height:5px;background:rgba(255,255,255,.07);border-radius:100px;overflow:hidden}
+    .prog-fill{
+      height:100%;border-radius:100px;
+      background:linear-gradient(90deg,var(--cyan),var(--blue));
+      box-shadow:0 0 12px rgba(0,255,204,.5);
+      animation:fill-grow 1.8s ease-out both;
+    }
+    @keyframes fill-grow{from{width:0}}
+
+    /* ══════════════════════════════════════
+       FEATURES
+    ══════════════════════════════════════ */
+    .feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:56px}
+    .feat{
+      background:linear-gradient(145deg,rgba(7,16,24,.98),rgba(5,12,20,.98));
+      border:1px solid var(--b2);border-radius:18px;
+      padding:28px 24px;transition:all .3s;position:relative;overflow:hidden;
+    }
+    .feat::before{
+      content:'';position:absolute;top:0;left:0;right:0;height:1px;
+      background:linear-gradient(90deg,transparent,rgba(0,255,204,.3),transparent);
+      opacity:0;transition:opacity .3s;
+    }
+    .feat::after{
+      content:'';position:absolute;bottom:-80px;right:-80px;width:160px;height:160px;
+      border-radius:50%;background:radial-gradient(circle,rgba(0,255,204,.04) 0%,transparent 70%);
+      transition:opacity .3s;pointer-events:none;
+    }
+    .feat:hover{border-color:rgba(0,255,204,.28);transform:translateY(-6px);box-shadow:0 16px 40px rgba(0,255,204,.08)}
+    .feat:hover::before{opacity:1}
+    .feat-ico{font-size:2rem;margin-bottom:16px;display:block}
+    .feat h3{font-family:var(--fh);font-weight:700;font-size:1rem;margin-bottom:10px;letter-spacing:.04em;text-transform:uppercase}
+    .feat p{font-size:.86rem;color:var(--muted2);line-height:1.75}
+
+    /* ══════════════════════════════════════
+       ROUTES
+    ══════════════════════════════════════ */
+    .routes-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:52px}
+    .route-card{
+      background:var(--bg2);border:1px solid var(--b2);border-radius:16px;
+      padding:18px 22px;display:flex;align-items:center;justify-content:space-between;
+      transition:all .2s;
+    }
+    .route-card:hover{border-color:rgba(0,255,204,.25);transform:translateX(5px);box-shadow:4px 0 20px rgba(0,255,204,.06)}
+    .route-left{display:flex;align-items:center;gap:14px}
+    .ri{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.82rem;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+    .ri:nth-child(2){margin-left:-9px;border:2px solid var(--bg2)}
+    .route-icons{display:flex}
+    .route-name{font-family:var(--fh);font-weight:700;font-size:.93rem;letter-spacing:.03em}
+    .route-chain{font-family:var(--fm);font-size:.61rem;color:var(--muted);margin-top:2px}
+    .route-vol{font-family:var(--fm);font-size:.76rem;color:var(--cyan)}
+
+    /* ══════════════════════════════════════
+       CHAINS
+    ══════════════════════════════════════ */
+    .chains-list{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:46px}
+    .chain-pill{
+      display:flex;align-items:center;gap:9px;
+      background:var(--surface);border:1px solid var(--b2);border-radius:100px;
+      padding:9px 20px;font-family:var(--fm);font-size:.72rem;
+      transition:all .2s;
+    }
+    .chain-pill:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(0,255,204,.04)}
+    .cp-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+
+    /* ══════════════════════════════════════
+       CTA
+    ══════════════════════════════════════ */
+    .cta-inner{
+      background:linear-gradient(135deg,rgba(0,255,204,.05),rgba(0,128,255,.05),rgba(61,90,254,.04));
+      border:1px solid var(--b1);border-radius:28px;padding:70px 60px;
+      display:flex;align-items:center;justify-content:space-between;gap:48px;
+      position:relative;overflow:hidden;
+    }
+    .cta-inner::before{
+      content:'';position:absolute;right:-80px;top:-80px;width:400px;height:400px;border-radius:50%;
+      background:radial-gradient(circle,rgba(0,255,204,.08) 0%,transparent 65%);pointer-events:none;
+    }
+    .cta-h{font-family:var(--fh);font-weight:700;font-size:2.4rem;letter-spacing:.04em;text-transform:uppercase;margin-bottom:12px;line-height:.95}
+    .cta-p{color:var(--muted2);max-width:440px;font-size:.97rem;line-height:1.8}
+    .cta-btns{display:flex;flex-direction:column;gap:12px;align-items:center;flex-shrink:0}
+
+    /* ══════════════════════════════════════
+       FAQ
+    ══════════════════════════════════════ */
+    .faq-wrap{max-width:860px;margin:56px auto 0}
+    .faq-item{border:1px solid var(--b2);border-radius:var(--r);margin-bottom:8px;overflow:hidden;transition:border-color .2s}
+    .faq-item.open{border-color:rgba(0,255,204,.3)}
+    .faq-q{
+      display:flex;align-items:center;justify-content:space-between;
+      padding:20px 24px;cursor:none;
+      background:linear-gradient(145deg,rgba(7,16,24,.98),rgba(5,12,20,.98));
+      font-family:var(--fh);font-weight:600;font-size:.95rem;letter-spacing:.02em;
+      transition:background .2s;
+    }
+    .faq-q:hover{background:rgba(0,255,204,.025)}
+    .faq-ic{
+      width:26px;height:26px;border-radius:50%;border:1px solid var(--b2);
+      display:flex;align-items:center;justify-content:center;flex-shrink:0;
+      color:var(--cyan);font-size:1rem;transition:transform .3s,border-color .3s;
+    }
+    .faq-item.open .faq-ic{transform:rotate(45deg);border-color:var(--cyan)}
+    .faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease;background:var(--bg3)}
+    .faq-a-inner{padding:18px 24px 24px;color:var(--muted2);font-size:.91rem;line-height:1.8}
+    .faq-item.open .faq-a{max-height:350px}
+
+    /* ══════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════ */
+    footer{background:var(--bg2);border-top:1px solid var(--b2);padding:70px 0 30px}
+    footer::before{
+      content:'';display:block;height:1px;
+      background:linear-gradient(90deg,transparent,var(--cyan),var(--blue),transparent);
+      opacity:.2;margin-bottom:0;
+    }
+    .ft-grid{display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr;gap:52px;margin-bottom:52px}
+    .ft-brand p{font-size:.86rem;color:var(--muted);margin-top:16px;max-width:280px;line-height:1.75}
+    .ft-col h5{font-family:var(--fh);font-weight:700;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px;color:var(--text)}
+    .ft-col a{display:block;font-size:.84rem;color:var(--muted);margin-bottom:11px;transition:color .2s;font-family:var(--fb)}
+    .ft-col a:hover{color:var(--cyan)}
+    .ft-bot{
+      border-top:1px solid var(--b2);padding-top:28px;
+      display:flex;justify-content:space-between;align-items:center;
+      font-family:var(--fm);font-size:.66rem;color:var(--muted);
+    }
+    .ft-bot a:hover{color:var(--cyan)}
+
+    /* ══════════════════════════════════════
+       ANIMATIONS
+    ══════════════════════════════════════ */
+    @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.6)}}
+    @keyframes ticker-run{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+    @keyframes fade-up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+
+    .anim{animation:fade-up .8s ease both}
+    .d1{animation-delay:.1s}.d2{animation-delay:.22s}.d3{animation-delay:.34s}
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:1000px){
+      .hero-inner{grid-template-columns:1fr}
+      .swap-card{max-width:500px}
+      .feat-grid{grid-template-columns:1fr 1fr}
+      .routes-grid{grid-template-columns:1fr}
+      .ft-grid{grid-template-columns:1fr 1fr}
+      .cta-inner{flex-direction:column;padding:40px 28px}
+      .staking-wrap{grid-template-columns:1fr}
+      .rd-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:620px){
+      .feat-grid{grid-template-columns:1fr}
+      nav{display:none}
+      .rd-grid{grid-template-columns:1fr}
+    }
+
+    /* ── FLUX ENERGY LINES (decorative) ── */
+    .energy-line{
+      position:absolute;pointer-events:none;
+      background:linear-gradient(90deg,transparent,var(--cyan),transparent);
+      height:1px;opacity:0;
+      animation:energy-flash 4s ease-in-out infinite;
+    }
+    @keyframes energy-flash{
+      0%,100%{opacity:0;transform:scaleX(0)}
+      20%{opacity:.4;transform:scaleX(1)}
+      40%{opacity:0;transform:scaleX(1)}
+    }
+
+    /* Terminal-style section divider */
+    .divider{
+      height:1px;
+      background:linear-gradient(90deg,transparent,var(--b1),var(--cyan),var(--b1),transparent);
+      opacity:.4;margin:0;position:relative;z-index:2;
+    }
+    .divider::after{
+      content:'◈ FLUX ◈';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+      font-family:var(--fm);font-size:.55rem;letter-spacing:.2em;color:var(--cyan);
+      background:var(--bg);padding:0 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── CUSTOM CURSOR ── -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- ── BACKGROUND ── -->
+<canvas id="bg-canvas"></canvas>
+<div class="bg-grid"></div>
+<div class="bg-scan"></div>
+
+<!-- ═══ HEADER ═══ -->
+<header>
+  <div class="wrap">
+    <div class="nav-row">
+      <a href="/" class="logo" aria-label="FluxSwap Home">
+        <div class="logo-mark">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M6 18 Q12 6 18 11 Q24 16 18 18 Q12 20 18 25 Q24 30 30 18" stroke="url(#lg1)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+            <circle cx="18" cy="18" r="3" fill="url(#lg1)"/>
+            <defs><linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00FFCC"/><stop offset="1" stop-color="#0080FF"/></linearGradient></defs>
+          </svg>
+        </div>
+        <div class="logo-word">
+          <span><span class="f">Flux</span><span class="lux">Swap</span></span>
+          <span class="sub">TRON · DeFi · TRC-20</span>
+        </div>
+      </a>
+
+      <nav role="navigation" aria-label="Main navigation">
+        <a href="#swap">Swap</a>
+        <a href="#staking">Stake</a>
+        <a href="#routes">Routes</a>
+        <a href="#features">Protocol</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <button class="btn-connect" aria-label="Connect Wallet">◈ Connect Wallet</button>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ HERO ═══ -->
+<main>
+<section class="hero" id="swap" aria-labelledby="hero-h1">
+
+  <!-- Rotating flux rings -->
+  <svg class="flux-stream" viewBox="0 0 900 900" fill="none" aria-hidden="true">
+    <circle cx="450" cy="450" r="400" stroke="url(#fs1)" stroke-width="1" stroke-dasharray="8 16"/>
+    <circle cx="450" cy="450" r="300" stroke="url(#fs2)" stroke-width="1" stroke-dasharray="4 12"/>
+    <circle cx="450" cy="450" r="200" stroke="url(#fs1)" stroke-width="1" stroke-dasharray="2 8"/>
+    <path d="M50 450 Q200 100 450 450 Q700 800 850 450" stroke="url(#fs1)" stroke-width="1" stroke-dasharray="6 12" opacity=".5"/>
+    <path d="M450 50 Q100 200 450 450 Q800 700 450 850" stroke="url(#fs2)" stroke-width="1" stroke-dasharray="6 12" opacity=".5"/>
+    <defs>
+      <linearGradient id="fs1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00FFCC"/><stop offset="1" stop-color="#0080FF"/></linearGradient>
+      <linearGradient id="fs2" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0080FF"/><stop offset="1" stop-color="#7C4DFF"/></linearGradient>
+    </defs>
+  </svg>
+
+  <div class="wrap">
+    <div class="hero-inner">
+
+      <!-- Left -->
+      <div class="anim">
+        <div class="hero-tag"><span class="tag-dot"></span>FluxSwap · TRON · TRC-20 Protocol · Live</div>
+        <h1 id="hero-h1">
+          <span class="h1-line h-c">FLUX</span>
+          <span class="h1-line"><span class="h-b">SWAP</span> <span class="h-dim">/</span></span>
+          <span class="h1-line h-g">STAKE</span>
+          <span class="h1-line"><span class="h-b">EARN</span></span>
+        </h1>
+        <p>FluxSwap is TRON's premier FLUX token DEX. Swap FLUX at the best rates across 400+ liquidity pools, stake for up to 280% APY, and earn continuous rewards — all in one non-custodial DeFi protocol.</p>
+
+        <div class="hero-btns">
+          <button class="btn-main" aria-label="Swap FLUX now">◈ Swap FLUX</button>
+          <button class="btn-outline" aria-label="Stake FLUX">⚡ Stake & Earn</button>
+        </div>
+
+        <div class="hero-kpis" role="list" aria-label="FluxSwap protocol stats">
+          <div class="kpi" role="listitem"><div class="kpi-n">$1.2B+</div><div class="kpi-l">Volume</div></div>
+          <div class="kpi" role="listitem"><div class="kpi-n">400+</div><div class="kpi-l">DEX Pools</div></div>
+          <div class="kpi" role="listitem"><div class="kpi-n">280%</div><div class="kpi-l">Max APY</div></div>
+          <div class="kpi" role="listitem"><div class="kpi-n">0.01%</div><div class="kpi-l">Min Fee</div></div>
+        </div>
+      </div>
+
+      <!-- Right — Swap Card -->
+      <div class="swap-card anim d2" aria-label="FLUX token swap interface">
+        <div class="sc-top">
+          <span class="sc-title">Swap <span>FLUX</span></span>
+          <div class="sc-tabs" role="group" aria-label="Network">
+            <button class="sc-tab active" aria-pressed="true">TRON</button>
+            <button class="sc-tab" aria-pressed="false">ETH</button>
+            <button class="sc-tab" aria-pressed="false">BNB</button>
+          </div>
+        </div>
+
+        <!-- From -->
+        <div class="token-row">
+          <div class="tr-label">Input</div>
+          <div class="tr-inner">
+            <div class="tok-sel" role="button" tabindex="0" aria-label="Select source token">
+              <div class="tok-ico" style="background:linear-gradient(135deg,#26a17b,#1a7a58)">₮</div>
+              <div class="tok-info"><div class="sym">USDT</div><div class="net">TRC-20</div></div>
+              <span class="tok-caret">▾</span>
+            </div>
+            <input class="tok-amount" type="text" value="1,000" aria-label="Amount to swap" inputmode="decimal"/>
+          </div>
+          <div class="tr-sub">
+            <span>≈ $1,000.00</span>
+            <span class="bal" title="Use max balance">BAL: 3,280.00 USDT</span>
+          </div>
+        </div>
+
+        <!-- Arrow -->
+        <div class="sc-arrow">
+          <button class="sc-arrow-btn" aria-label="Reverse swap direction">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/>
+              <polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- To -->
+        <div class="token-row">
+          <div class="tr-label">Output</div>
+          <div class="tr-inner">
+            <div class="tok-sel" role="button" tabindex="0" aria-label="Select destination token">
+              <div class="tok-ico" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div>
+              <div class="tok-info"><div class="sym">FLUX</div><div class="net">TRC-20</div></div>
+              <span class="tok-caret">▾</span>
+            </div>
+            <input class="tok-amount" type="text" id="flux-out" value="14,820.40" aria-label="FLUX to receive" readonly/>
+          </div>
+          <div class="tr-sub">
+            <span>≈ $999.58</span>
+            <span style="color:#4ade80;font-size:.62rem">Best route ◈</span>
+          </div>
+        </div>
+
+        <!-- Rate info -->
+        <div class="sc-info">
+          <div class="sc-info-row"><span>Rate</span><span class="v" id="live-rate">1 USDT = 14.82 FLUX</span></div>
+          <div class="sc-info-row"><span>Price Impact</span><span class="good">&lt;0.01%</span></div>
+          <div class="sc-info-row"><span>Route</span><span class="v">USDT → SunSwap → FLUX</span></div>
+          <div class="sc-info-row"><span>Network Fee</span><span class="v">~$0.008</span></div>
+        </div>
+
+        <!-- Slippage -->
+        <div style="margin-top:14px">
+          <div style="font-family:var(--fm);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Slippage Tolerance</div>
+          <div class="slip-row" role="group" aria-label="Slippage">
+            <button class="slip-btn" aria-pressed="false">0.1%</button>
+            <button class="slip-btn active" aria-pressed="true">0.5%</button>
+            <button class="slip-btn" aria-pressed="false">1.0%</button>
+            <button class="slip-btn" aria-pressed="false">Auto</button>
+          </div>
+        </div>
+
+        <button class="btn-swap-now" aria-label="Swap FLUX tokens">⚡ SWAP FLUX NOW</button>
+
+        <div class="sc-footer">
+          <span>MEV Protected</span>
+          <span>Non-Custodial</span>
+          <span>Best Rate</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TICKER ═══ -->
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <div class="t-i"><span class="t-dot"></span>FLUX <span class="t-v">$0.0675</span><span class="up">+8.3%</span></div>
+    <div class="t-i"><span class="t-dot"></span>USDT TRC20 <span class="t-v">$1.0001</span><span class="up">+0.01%</span></div>
+    <div class="t-i"><span class="t-dot"></span>FLUX Holders <span class="t-v">372K+</span></div>
+    <div class="t-i"><span class="t-dot"></span>24h Volume <span class="t-v">$3.76M</span><span class="up">+18%</span></div>
+    <div class="t-i"><span class="t-dot"></span>Staked FLUX <span class="t-v">44.8M</span></div>
+    <div class="t-i"><span class="t-dot"></span>FLUX Nodes <span class="t-v">13,500+</span></div>
+    <div class="t-i"><span class="t-dot"></span>Max APY <span class="t-v">280%</span><span class="up">⚡</span></div>
+    <div class="t-i"><span class="t-dot"></span>FLUX Swaps Today <span class="t-v">28,410</span></div>
+    <div class="t-i"><span class="t-dot"></span>Total Supply <span class="t-v">440M FLUX</span></div>
+    <div class="t-i"><span class="t-dot"></span>Pool TVL <span class="t-v">$48.2M</span><span class="up">+5%</span></div>
+    <!-- dup -->
+    <div class="t-i"><span class="t-dot"></span>FLUX <span class="t-v">$0.0675</span><span class="up">+8.3%</span></div>
+    <div class="t-i"><span class="t-dot"></span>USDT TRC20 <span class="t-v">$1.0001</span><span class="up">+0.01%</span></div>
+    <div class="t-i"><span class="t-dot"></span>FLUX Holders <span class="t-v">372K+</span></div>
+    <div class="t-i"><span class="t-dot"></span>24h Volume <span class="t-v">$3.76M</span><span class="up">+18%</span></div>
+    <div class="t-i"><span class="t-dot"></span>Staked FLUX <span class="t-v">44.8M</span></div>
+    <div class="t-i"><span class="t-dot"></span>FLUX Nodes <span class="t-v">13,500+</span></div>
+    <div class="t-i"><span class="t-dot"></span>Max APY <span class="t-v">280%</span><span class="up">⚡</span></div>
+    <div class="t-i"><span class="t-dot"></span>FLUX Swaps Today <span class="t-v">28,410</span></div>
+    <div class="t-i"><span class="t-dot"></span>Total Supply <span class="t-v">440M FLUX</span></div>
+    <div class="t-i"><span class="t-dot"></span>Pool TVL <span class="t-v">$48.2M</span><span class="up">+5%</span></div>
+  </div>
+</div>
+
+<div class="divider" aria-hidden="true"></div>
+
+<!-- ═══ STAKING / REWARDS ═══ -->
+<section class="sec" id="staking" aria-label="FLUX Staking and Rewards">
+  <div class="wrap">
+    <div class="sec-center">
+      <div class="sec-lbl">◈ Staking &amp; Rewards</div>
+      <h2 class="sec-h">Stake <span class="h-c">FLUX</span>,<br/>Earn <span class="h-g">Passive Yield</span></h2>
+      <p class="sec-sub">FluxSwap's staking protocol lets you put your FLUX to work. Choose your lock period and maximize your APY — up to 280% for the 365-day tier, with compounding daily rewards.</p>
+    </div>
+
+    <div class="staking-wrap">
+
+      <!-- Flexible -->
+      <div class="s-card">
+        <div class="s-head">
+          <div class="s-ico">🔓</div>
+          <div>
+            <div class="s-name">Flexible</div>
+            <div class="s-tag">Withdraw anytime · No lock period</div>
+          </div>
+        </div>
+        <div class="s-apy">
+          <div class="apy-l">Current APY</div>
+          <div class="apy-v">42%</div>
+          <div class="apy-note">Daily compounding · Paid in FLUX</div>
+        </div>
+        <div class="s-stats">
+          <div class="ss"><div class="ss-v">$22.4M</div><div class="ss-l">Total Staked</div></div>
+          <div class="ss"><div class="ss-v">8,920</div><div class="ss-l">Stakers</div></div>
+          <div class="ss"><div class="ss-v">Daily</div><div class="ss-l">Rewards</div></div>
+          <div class="ss"><div class="ss-v">0 days</div><div class="ss-l">Lock Period</div></div>
+        </div>
+        <div class="s-input-wrap">
+          <div class="s-input-lbl">
+            <span>Amount to Stake</span>
+            <span onclick="this.closest('.s-card').querySelector('.s-input').value='44,800'">MAX</span>
+          </div>
+          <input class="s-input" type="text" placeholder="Enter FLUX amount" value="5,000"/>
+        </div>
+        <button class="btn-stake" aria-label="Stake FLUX flexibly">🔓 Stake Flexibly</button>
+      </div>
+
+      <!-- Fixed / Prime -->
+      <div class="s-card prime">
+        <div class="s-head">
+          <div class="s-ico">⚡</div>
+          <div>
+            <div class="s-name">Fixed Lock</div>
+            <div class="s-tag">Maximum yields · Higher multipliers</div>
+          </div>
+        </div>
+        <div class="s-apy">
+          <div class="apy-l">Maximum APY</div>
+          <div class="apy-v">280%</div>
+          <div class="apy-note">365-day lock · FLUX + bonus rewards</div>
+        </div>
+        <div class="s-stats">
+          <div class="ss"><div class="ss-v">$25.8M</div><div class="ss-l">Total Locked</div></div>
+          <div class="ss"><div class="ss-v">14,280</div><div class="ss-l">Stakers</div></div>
+          <div class="ss"><div class="ss-v">Weekly</div><div class="ss-l">Rewards</div></div>
+          <div class="ss"><div class="ss-v">30–365d</div><div class="ss-l">Lock Period</div></div>
+        </div>
+        <div class="s-input-wrap">
+          <div class="s-input-lbl">
+            <span>Amount to Lock</span>
+            <span onclick="this.closest('.s-card').querySelector('.s-input').value='44,800'">MAX</span>
+          </div>
+          <input class="s-input" type="text" placeholder="Enter FLUX amount" value="25,000"/>
+        </div>
+        <div class="dur-row" role="group" aria-label="Lock duration">
+          <button class="dur-btn" aria-pressed="false">30d<br/><small style="font-size:.5rem;color:inherit">72%</small></button>
+          <button class="dur-btn" aria-pressed="false">90d<br/><small style="font-size:.5rem;color:inherit">128%</small></button>
+          <button class="dur-btn" aria-pressed="false">180d<br/><small style="font-size:.5rem;color:inherit">196%</small></button>
+          <button class="dur-btn active" aria-pressed="true">365d<br/><small style="font-size:.5rem;color:inherit">280%</small></button>
+        </div>
+        <button class="btn-stake" aria-label="Stake and lock FLUX">⚡ Lock &amp; Earn</button>
+      </div>
+
+      <!-- Rewards Dashboard -->
+      <div class="rewards-dash" aria-label="FLUX staking rewards dashboard">
+        <div class="rd-head">
+          <div class="rd-title">Your <span>Rewards</span> Dashboard</div>
+          <button class="btn-claim" aria-label="Claim all FLUX rewards">◈ Claim All Rewards</button>
+        </div>
+        <div class="rd-grid">
+          <div class="r-stat"><div class="r-ico">⚡</div><div class="r-v">3,240</div><div class="r-l">Pending FLUX</div></div>
+          <div class="r-stat"><div class="r-ico">💰</div><div class="r-v">$218.70</div><div class="r-l">USD Value</div></div>
+          <div class="r-stat"><div class="r-ico">🔗</div><div class="r-v">31 days</div><div class="r-l">Staking Streak</div></div>
+          <div class="r-stat"><div class="r-ico">🏆</div><div class="r-v">1.8x</div><div class="r-l">Multiplier</div></div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-hd"><span>Lock Progress (365 days)</span><span style="color:var(--cyan)">31 / 365 days</span></div>
+          <div class="prog-bar"><div class="prog-fill" style="width:8%"></div></div>
+        </div>
+        <div class="prog-row" style="margin-top:14px">
+          <div class="prog-hd"><span>Next Tier: Node Runner (200K+ FLUX staked)</span><span style="color:var(--cyan)">25,000 / 200,000 FLUX</span></div>
+          <div class="prog-bar"><div class="prog-fill" style="width:12.5%"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"></div>
+
+<!-- ═══ FEATURES ═══ -->
+<section class="sec" id="features" aria-label="FluxSwap protocol features">
+  <div class="wrap">
+    <div class="sec-center">
+      <div class="sec-lbl">◈ Protocol Features</div>
+      <h2 class="sec-h">Built Different.<br/><span class="h-g">Built for FLUX.</span></h2>
+      <p class="sec-sub">FluxSwap combines TRON's speed with institutional-grade DeFi infrastructure — purpose-built for the FLUX ecosystem and its 372K+ global holders.</p>
+    </div>
+
+    <div class="feat-grid">
+      <article class="feat"><span class="feat-ico">⚡</span><h3>FLUX-Native Routing</h3><p>FluxSwap's aggregator is optimized specifically for FLUX token liquidity across all TRON DEX pools, guaranteeing the best FLUX rate every single time you swap.</p></article>
+      <article class="feat"><span class="feat-ico">🔀</span><h3>Smart Order Splitting</h3><p>Large FLUX orders are automatically split across SunSwap, JustSwap, and 400+ TRON pools to minimize price impact and maximize your output on every trade.</p></article>
+      <article class="feat"><span class="feat-ico">🛡️</span><h3>MEV Shield</h3><p>All FLUX swaps route through private TRON mempools. Front-running bots and sandwich attacks cannot see or interfere with your transactions before they confirm.</p></article>
+      <article class="feat"><span class="feat-ico">🌐</span><h3>Parallel Asset Bridge</h3><p>FLUX is a parallel asset — move your FLUX between native Flux chain and TRON seamlessly, unlocking DeFi opportunities across both ecosystems through FluxSwap.</p></article>
+      <article class="feat"><span class="feat-ico">💎</span><h3>Node Runner Rewards</h3><p>FLUX Flux Node operators who stake on FluxSwap earn bonus multipliers on top of standard APY — up to 3.2x for verified node operators with active FluxNodes.</p></article>
+      <article class="feat"><span class="feat-ico">🔑</span><h3>Non-Custodial Always</h3><p>Your FLUX never leaves your wallet until the swap executes atomically. Smart contracts hold zero custody over user funds at any point in the swap or staking lifecycle.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TOP ROUTES ═══ -->
+<section class="sec" id="routes" aria-label="Top FLUX swap routes" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-center">
+      <div class="sec-lbl">◈ Top Routes</div>
+      <h2 class="sec-h">Highest-Volume<br/><span class="h-c">FLUX</span> <span class="h-g">Pairs</span></h2>
+      <p class="sec-sub">Most actively traded FLUX token routes across TRON and connected networks on FluxSwap.</p>
+    </div>
+
+    <div class="routes-grid">
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#26a17b">₮</div><div class="ri" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div></div><div><div class="route-name">USDT TRC20 → FLUX</div><div class="route-chain">TRON Network</div></div></div><div class="route-vol">$1.2M/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div><div class="ri" style="background:#26a17b">₮</div></div><div><div class="route-name">FLUX → USDT TRC20</div><div class="route-chain">TRON Network</div></div></div><div class="route-vol">$980K/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#627eea">Ξ</div><div class="ri" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div></div><div><div class="route-name">ETH → FLUX</div><div class="route-chain">ETH → TRON</div></div></div><div class="route-vol">$520K/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#f0b90b">B</div><div class="ri" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div></div><div><div class="route-name">BNB → FLUX</div><div class="route-chain">BNB → TRON</div></div></div><div class="route-vol">$340K/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#9945ff">S</div><div class="ri" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div></div><div><div class="route-name">SOL → FLUX</div><div class="route-chain">Solana → TRON</div></div></div><div class="route-vol">$210K/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#e84142">T</div><div class="ri" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div></div><div><div class="route-name">SUN → FLUX</div><div class="route-chain">TRON Ecosystem</div></div></div><div class="route-vol">$180K/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div><div class="ri" style="background:#627eea">Ξ</div></div><div><div class="route-name">FLUX → ETH</div><div class="route-chain">TRON → ETH</div></div></div><div class="route-vol">$140K/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:linear-gradient(135deg,#00FFCC,#0080FF)">⚡</div><div class="ri" style="background:#8247e5">M</div></div><div><div class="route-name">FLUX → MATIC</div><div class="route-chain">TRON → Polygon</div></div></div><div class="route-vol">$96K/day</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CHAINS ═══ -->
+<section class="sec sec-center" id="chains" aria-label="Supported networks" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-lbl">◈ Networks</div>
+    <h2 class="sec-h">FLUX Across <span class="h-g">30+ Chains</span>,<br/>One Protocol</h2>
+    <div class="chains-list" role="list">
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#e84142"></span>TRON (Primary)</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#00FFCC"></span>Flux Native Chain</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#627eea"></span>Ethereum</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#f0b90b"></span>BNB Chain</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#8247e5"></span>Polygon</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#28a0ef"></span>Arbitrum</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#ff0420"></span>Optimism</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#9945ff"></span>Solana</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#00d395"></span>Avalanche</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#0033ad"></span>zkSync Era</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#3ec300"></span>Ergo</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#0080FF"></span>+20 more</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section class="sec" aria-label="Start swapping FLUX" style="padding-top:0">
+  <div class="wrap">
+    <div class="cta-inner">
+      <div>
+        <div class="sec-lbl">◈ Get Started</div>
+        <h2 class="cta-h"><span class="h-c">Start Swapping</span><br/><span class="h-g">FLUX Today</span></h2>
+        <p class="cta-p">Connect TronLink and make your first FLUX swap in under 30 seconds. No account, no KYC, no friction — just pure TRON DeFi at its fastest.</p>
+      </div>
+      <div class="cta-btns">
+        <button class="btn-main" style="font-size:.88rem;padding:14px 38px" aria-label="Launch FluxSwap">◈ Launch FluxSwap</button>
+        <button class="btn-outline" style="font-size:.84rem;padding:13px 30px" aria-label="Read docs">📄 Read Docs</button>
+        <span style="font-family:var(--fm);font-size:.62rem;color:var(--muted)">400+ DEX pools · 30+ chains · 0.01% fee</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"></div>
+
+<!-- ═══ FAQ — 20 QUESTIONS ═══ -->
+<section class="sec" id="faq" aria-label="FluxSwap FAQ">
+  <div class="wrap">
+    <div class="sec-center">
+      <div class="sec-lbl">◈ FAQ</div>
+      <h2 class="sec-h">Everything About<br/><span class="h-g">FluxSwap</span> <span class="h-c">Answered</span></h2>
+      <p class="sec-sub">Your complete guide to swapping, staking, and earning FLUX on TRON with FluxSwap.</p>
+    </div>
+
+    <div class="faq-wrap" itemscope itemtype="https://schema.org/FAQPage">
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is FluxSwap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FluxSwap is the premier decentralized exchange (DEX) and staking protocol built specifically for FLUX token on the TRON blockchain. It aggregates 400+ TRON liquidity pools to find the best FLUX swap rates, offers staking tiers up to 280% APY, and enables cross-chain FLUX swaps across 30+ networks — all in one non-custodial, zero-KYC interface.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is FLUX token on TRON?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FLUX on TRON (TRC-20 contract: TWr6yzukRwZ53HDe3bzcC8RCTbiKa4Zzb6) is a parallel asset of the native Flux blockchain. The Flux ecosystem uses parallel assets — token bridges that allow FLUX to exist simultaneously on multiple blockchains while remaining pegged to the same supply. FLUX-TRON gives holders access to TRON's ultra-fast, ultra-cheap DeFi ecosystem without leaving the Flux ecosystem. There will only ever be 440 million FLUX in total supply across all chains.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How do I swap USDT to FLUX on FluxSwap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Click "Connect Wallet" and connect TronLink. Select USDT (TRC-20) as your input token and FLUX as your output token. Enter the amount of USDT to spend. Review the live FLUX quote, exchange rate, route, and fee breakdown. Set slippage tolerance (0.5% recommended for FLUX). Click "Swap FLUX Now" and confirm the transaction in TronLink. Your FLUX tokens arrive in your wallet in under 3 seconds thanks to TRON's fast finality.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is FLUX staking on FluxSwap and how does it work?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FLUX staking on FluxSwap lets you deposit FLUX tokens into the protocol smart contract to earn passive yield. Choose Flexible staking (no lock, 42% APY) or Fixed staking (lock 30–365 days, up to 280% APY). Rewards accrue daily and are distributed in FLUX tokens directly to your staking position. Fixed stakers also receive loyalty multipliers and tier bonuses. The staking contract is audited and non-custodial — only your wallet address can ever withdraw your staked FLUX.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What APY can I earn staking FLUX?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FluxSwap offers tiered APY: Flexible staking earns 42% APY with no lock. Fixed 30-day staking earns 72% APY. Fixed 90-day lock earns 128% APY. Fixed 180-day lock earns 196% APY. The maximum 280% APY is available for the 365-day fixed lock. Flux Node operators who stake receive an additional multiplier up to 3.2x on their base APY. All rates compound daily and are paid in FLUX.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What wallets work with FluxSwap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FluxSwap supports TronLink (recommended — official TRON wallet), TokenPocket, Trust Wallet, BitKeep/Bitget Wallet, imToken, and any WalletConnect-compatible wallet that supports TRON and TRC-20 tokens. For cross-chain swaps from Ethereum or BNB Chain, MetaMask, Coinbase Wallet, and all EVM-compatible wallets are fully supported. Zelcore wallet (the official Flux wallet) is also compatible with FluxSwap for TRON operations.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What are the fees on FluxSwap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FluxSwap charges a protocol fee starting at 0.01% of the swap value. TRON network fees are minimal — typically $0.007–$0.015 per transaction. There are no account fees, withdrawal fees, or staking entry fees. Node Runner tier stakers receive a 50% fee rebate on all their FluxSwap swaps. All fees are fully disclosed in your quote before you confirm — no hidden costs, ever.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How does FluxSwap find the best FLUX rate?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FluxSwap's routing engine simultaneously queries 400+ TRON DEX pools including SunSwap, JustSwap, SunStable, and all FLUX-paired liquidity sources. A pathfinding algorithm optimally splits your order across multiple pools to reduce price impact and maximize FLUX output. Quotes refresh every 5 seconds for accuracy. For cross-chain FLUX swaps, bridge costs and destination chain fees are factored into the net rate so you always see the true best deal.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Is FluxSwap safe? Are the contracts audited?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Yes. FluxSwap is fully non-custodial — your FLUX is never held by the protocol between transactions. All smart contracts, including the swap router and staking contracts, are audited by leading blockchain security firms. MEV protection shields every swap from front-running bots. The staking contracts are time-locked and cannot be modified after deployment. If a swap cannot complete for any reason, your tokens are automatically returned to your wallet — no funds can ever be lost in a failed transaction.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is MEV protection and how does FluxSwap implement it?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">MEV (Maximal Extractable Value) bots monitor public mempools and front-run pending swaps, forcing traders into worse prices. FluxSwap routes all FLUX swap transactions through private TRON relay networks, making your swap invisible to bots before it confirms on-chain. This ensures you always receive the exact quoted rate. For large FLUX swaps, MEV protection can save traders $20–$100+ per transaction compared to unprotected DEXes.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Can I swap FLUX cross-chain from Ethereum or other networks?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Yes. FluxSwap supports cross-chain FLUX swaps from Ethereum, BNB Chain, Polygon, Solana, Avalanche, Arbitrum, Optimism, zkSync, and more. You can bridge and swap in one step — send ETH from MetaMask and receive FLUX TRC-20 in TronLink, for example. FluxSwap also integrates with the native Flux parallel asset bridge, allowing movement between the native Flux chain and TRON seamlessly. Cross-chain swaps typically complete in 1–5 minutes depending on the source chain.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What are FluxSwap staking tiers?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FluxSwap has four tiers: Flux Starter (1–9,999 FLUX staked) earns base APY. Flux Holder (10,000–49,999 FLUX) earns base APY + 30% bonus and a 20% fee rebate. Flux Validator (50,000–199,999 FLUX) earns base APY + 70% bonus, a 35% fee rebate, and priority routing on swaps. Flux Node Runner (200,000+ FLUX) earns maximum APY + 3.2x multiplier, a 50% fee rebate, and exclusive early access to new FLUX token listings and governance votes.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is slippage and how should I set it for FLUX?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Slippage is the acceptable price difference between your quoted rate and execution price, caused by market movements between quote and confirmation. For most FLUX/USDT swaps, 0.5% slippage is ideal. For large trades (over $10,000 in FLUX) or periods of high volatility, 1% is recommended. The "Auto" setting on FluxSwap dynamically selects the optimal slippage based on FLUX pool depth and recent volatility data, and is the best choice for most users.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Can I provide liquidity to FLUX pools on FluxSwap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Yes. FluxSwap allows LPs to deposit FLUX paired with USDT TRC-20 into the primary FLUX/USDT liquidity pool. In return you receive LP tokens representing your pool share and earn a proportional percentage of all swap fees generated by that pair. LP positions are additionally eligible for FLUX yield farming incentives on top of trading fees, making liquidity provision one of the highest-yield strategies for long-term FLUX believers.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Do I need KYC or an account to use FluxSwap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">No. FluxSwap is a fully permissionless protocol. There are no accounts, no registrations, no email addresses, and absolutely no KYC verification of any kind. Your wallet address is your identity on-chain. Connect TronLink and you can instantly swap FLUX, stake for rewards, and provide liquidity — with complete financial privacy and sovereignty over your assets.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How fast are FLUX swaps on TRON?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">FLUX swaps on TRON finalize in under 3 seconds. TRON's Delegated Proof-of-Stake consensus enables extremely high throughput — roughly 2,000 TPS — with near-instant finality. This makes TRON the fastest major blockchain for FLUX swaps, dramatically faster than Ethereum (12+ seconds), BNB Chain (3–5 seconds), or Polygon (2–4 seconds). The moment you confirm in TronLink, your FLUX appears in your wallet before you can look away.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What happens to my FLUX if a swap fails?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">If a FLUX swap fails — due to slippage exceeding tolerance, insufficient liquidity, or network conditions — the transaction reverts atomically. Your FLUX and USDT are returned to your wallet in full. FluxSwap's atomic swap architecture guarantees you can never be stuck mid-swap. On TRON, a failed transaction consumes a small amount of energy/bandwidth but zero FLUX is ever deducted from a reverted swap. To minimize failures: use appropriate slippage and ensure your wallet has sufficient TRX for network fees.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How do I unstake my FLUX from FluxSwap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">For Flexible staking, click "Unstake" in the Staking dashboard at any time. Your FLUX and all accrued rewards return to your wallet immediately with no penalty. For Fixed staking, your position unlocks automatically once the lock period expires. After expiry, click "Withdraw" to retrieve your FLUX plus all earned rewards. Early withdrawal from a Fixed lock forfeits rewards for the remaining lock period, so only lock what you're comfortable holding for the chosen duration.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Does FluxSwap support the native Flux blockchain?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Yes. FluxSwap integrates with the Flux parallel asset bridge, enabling movement between the native Flux blockchain and TRON. This means you can bridge native FLUX from Zelcore to TRON's TRC-20 FLUX, swap it on FluxSwap for USDT or other tokens, and bridge back — all without using a centralized exchange. FluxSwap is the primary DeFi gateway for Flux ecosystem participants who want to access TRON's deep liquidity and low-fee environment.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Does FluxSwap have a referral program?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Yes. FluxSwap's referral program rewards you 20% of the protocol fee from every swap made by users you refer — paid in FLUX directly to your wallet in real time. There is no cap on referrals or earnings. Node Runner tier stakers earn a boosted 35% referral commission. Your referral dashboard tracks total referred wallets, their combined swap volume, and your accumulated FLUX referral rewards — all claimable at any time with zero restrictions.</div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ═══ FOOTER ═══ -->
+<footer role="contentinfo">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div class="ft-brand">
+        <a href="/" class="logo" aria-label="FluxSwap">
+          <div class="logo-mark" style="transform:scale(.85);transform-origin:left center">
+            <svg width="34" height="34" viewBox="0 0 36 36" fill="none">
+              <path d="M6 18 Q12 6 18 11 Q24 16 18 18 Q12 20 18 25 Q24 30 30 18" stroke="url(#lg2)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+              <circle cx="18" cy="18" r="3" fill="url(#lg2)"/>
+              <defs><linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00FFCC"/><stop offset="1" stop-color="#0080FF"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="logo-word">
+            <span><span class="f">Flux</span><span class="lux">Swap</span></span>
+            <span class="sub">TRON · DeFi · TRC-20</span>
+          </div>
+        </a>
+        <p>TRON's premier decentralized exchange for FLUX token. Swap, stake, and earn — non-custodial, MEV-protected, instant. The official FLUX DeFi gateway on TRON.</p>
+      </div>
+      <div class="ft-col">
+        <h5>Platform</h5>
+        <a href="#swap">Swap FLUX</a>
+        <a href="#staking">Stake &amp; Earn</a>
+        <a href="#routes">Top Routes</a>
+        <a href="#chains">Supported Chains</a>
+        <a href="#">Liquidity Pools</a>
+      </div>
+      <div class="ft-col">
+        <h5>Resources</h5>
+        <a href="#">Documentation</a>
+        <a href="#">API Reference</a>
+        <a href="#">Smart Contracts</a>
+        <a href="#">Security Audit</a>
+        <a href="#">Bug Bounty</a>
+      </div>
+      <div class="ft-col">
+        <h5>Ecosystem</h5>
+        <a href="#">Flux Official</a>
+        <a href="#">Twitter / X</a>
+        <a href="#">Telegram</a>
+        <a href="#">Discord</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2025 FluxSwap · <a href="https://flux-swap.vercel.app/" style="color:var(--cyan)">flux-swap.vercel.app</a> · All rights reserved.</span>
+      <div style="display:flex;gap:24px"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Disclaimer</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══ SCRIPTS ═══ -->
+<script>
+/* ── CUSTOM CURSOR ── */
+const cur = document.getElementById('cursor');
+const ring = document.getElementById('cursor-ring');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{
+  mx=e.clientX;my=e.clientY;
+  cur.style.left=mx+'px';cur.style.top=my+'px';
+});
+function animRing(){
+  rx+=(mx-rx)*.12;ry+=(my-ry)*.12;
+  ring.style.left=rx+'px';ring.style.top=ry+'px';
+  requestAnimationFrame(animRing);
+}
+animRing();
+document.querySelectorAll('button,a,[role="button"]').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{
+    cur.style.transform='translate(-50%,-50%) scale(2)';
+    ring.style.transform='translate(-50%,-50%) scale(1.5)';
+    ring.style.borderColor='rgba(0,255,204,.6)';
+  });
+  el.addEventListener('mouseleave',()=>{
+    cur.style.transform='translate(-50%,-50%) scale(1)';
+    ring.style.transform='translate(-50%,-50%) scale(1)';
+    ring.style.borderColor='rgba(0,255,204,.4)';
+  });
+});
+
+/* ── BACKGROUND CANVAS ── */
+(function(){
+  const c=document.getElementById('bg-canvas');
+  const x=c.getContext('2d');
+  let W,H;
+  const particles=[];
+  const connections=[];
+
+  function resize(){W=c.width=window.innerWidth;H=c.height=window.innerHeight}
+  resize();window.addEventListener('resize',resize);
+
+  // Particles (network nodes)
+  for(let i=0;i<80;i++){
+    particles.push({
+      x:Math.random()*1400,y:Math.random()*900,
+      vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,
+      r:Math.random()*1.8+.4,o:Math.random()*.4+.1,
+      cyan:Math.random()>.5
+    });
+  }
+
+  // Stream lines (flux energy)
+  const streams=[];
+  for(let i=0;i<6;i++){
+    streams.push({
+      pts:[],progress:0,speed:Math.random()*.002+.001,
+      color:i%2===0?'#00FFCC':'#0080FF',
+      startX:Math.random()*W,startY:Math.random()*H,
+      phase:Math.random()*Math.PI*2
+    });
+  }
+
+  let frame=0;
+  function draw(){
+    x.clearRect(0,0,W,H);
+    frame++;
+
+    // Draw network connections
+    for(let i=0;i<particles.length;i++){
+      for(let j=i+1;j<particles.length;j++){
+        const dx=particles[i].x-particles[j].x;
+        const dy=particles[i].y-particles[j].y;
+        const dist=Math.sqrt(dx*dx+dy*dy);
+        if(dist<160){
+          const op=(1-dist/160)*.08;
+          x.beginPath();
+          x.moveTo(particles[i].x,particles[i].y);
+          x.lineTo(particles[j].x,particles[j].y);
+          x.strokeStyle=`rgba(0,255,204,${op})`;
+          x.lineWidth=.5;
+          x.stroke();
+        }
+      }
+    }
+
+    // Draw particles
+    particles.forEach(p=>{
+      p.x+=p.vx;p.y+=p.vy;
+      if(p.x<0||p.x>W)p.vx*=-1;
+      if(p.y<0||p.y>H)p.vy*=-1;
+      const twinkle=.5+.5*Math.sin(frame*.02+p.x*.01);
+      x.beginPath();
+      x.arc(p.x,p.y,p.r,0,Math.PI*2);
+      x.fillStyle=p.cyan?`rgba(0,255,204,${p.o*twinkle})`:`rgba(0,128,255,${p.o*twinkle*.7})`;
+      x.fill();
+    });
+
+    // Draw flux energy streams
+    streams.forEach((s,idx)=>{
+      s.progress+=s.speed;
+      if(s.progress>1){s.progress=0;s.startX=Math.random()*W;s.startY=Math.random()*H}
+      const t=s.progress;
+      const ex=W-s.startX;const ey=H-s.startY;
+      const cpx=W/2+Math.sin(frame*.005+idx)*200;
+      const cpy=H/2+Math.cos(frame*.005+idx)*150;
+      // bezier point
+      const bx=(1-t)*(1-t)*s.startX+2*(1-t)*t*cpx+t*t*ex;
+      const by=(1-t)*(1-t)*s.startY+2*(1-t)*t*cpy+t*t*ey;
+      const alpha=Math.sin(t*Math.PI)*.12;
+      x.beginPath();
+      x.arc(bx,by,2,0,Math.PI*2);
+      x.fillStyle=s.color.replace(')',`,${alpha})`).replace('rgb','rgba').replace('#00FFCC',`rgba(0,255,204,${alpha})`).replace('#0080FF',`rgba(0,128,255,${alpha})`);
+      const grad=x.createRadialGradient(bx,by,0,bx,by,8);
+      grad.addColorStop(0,s.color==='#00FFCC'?`rgba(0,255,204,${alpha})`:`rgba(0,128,255,${alpha})`);
+      grad.addColorStop(1,'transparent');
+      x.fillStyle=grad;
+      x.beginPath();x.arc(bx,by,8,0,Math.PI*2);x.fill();
+    });
+
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+/* ── FAQ ── */
+document.querySelectorAll('.faq-q').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const item=btn.closest('.faq-item');
+    const open=item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(el=>{
+      el.classList.remove('open');
+      el.querySelector('.faq-q').setAttribute('aria-expanded','false');
+    });
+    if(!open){item.classList.add('open');btn.setAttribute('aria-expanded','true')}
+  });
+  btn.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();btn.click()}});
+});
+
+/* ── TABS / TOGGLES ── */
+document.querySelectorAll('.sc-tab').forEach(b=>{
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.sc-tab').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false')});
+    this.classList.add('active');this.setAttribute('aria-pressed','true');
+  });
+});
+document.querySelectorAll('.slip-btn').forEach(b=>{
+  b.addEventListener('click',function(){
+    document.querySelectorAll('.slip-btn').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false')});
+    this.classList.add('active');this.setAttribute('aria-pressed','true');
+  });
+});
+document.querySelectorAll('.dur-btn').forEach(b=>{
+  b.addEventListener('click',function(){
+    const card=this.closest('.s-card');
+    card.querySelectorAll('.dur-btn').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-pressed','false')});
+    this.classList.add('active');this.setAttribute('aria-pressed','true');
+  });
+});
+
+/* ── ARROW SWAP ── */
+document.querySelectorAll('.sc-arrow-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const card=btn.closest('.swap-card');
+    const rows=card.querySelectorAll('.tok-sel');
+    if(rows.length<2)return;
+    [['tok-ico','tok-ico'],['tok-info','tok-info']].forEach(([a])=>{
+      const n1=rows[0].querySelector('.'+a).cloneNode(true);
+      const n2=rows[1].querySelector('.'+a).cloneNode(true);
+      rows[0].querySelector('.'+a).replaceWith(n2);
+      rows[1].querySelector('.'+a).replaceWith(n1);
+    });
+  });
+});
+
+/* ── LIVE RATE ── */
+setInterval(()=>{
+  const base=14.82+(Math.random()-.5)*.5;
+  const out=(1000*base).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const el=document.getElementById('flux-out');
+  const rt=document.getElementById('live-rate');
+  if(el)el.value=out;
+  if(rt)rt.textContent=`1 USDT = ${base.toFixed(2)} FLUX`;
+},4200);
+
+/* ── SCROLL REVEAL ── */
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.style.opacity='1';
+      e.target.style.transform='translateY(0)';
+      obs.unobserve(e.target);
+    }
+  });
+},{threshold:.08});
+document.querySelectorAll('.feat,.route-card,.chain-pill,.kpi,.s-card,.r-stat').forEach(el=>{
+  el.style.opacity='0';
+  el.style.transform='translateY(24px)';
+  el.style.transition='opacity .65s ease, transform .65s ease';
+  obs.observe(el);
+});
+</script>
+  <script src="./modernizr-3.12.0.js" type="module"></script>
+
+</body>
+</html>
